@@ -5,9 +5,9 @@
 
 # Team Members: 
 - Ramprakash S U 
-- Kavya 
-- Yamuna Devi
-- Gokul
+- Kavya R
+- Yamuna Devi V
+- Gokul P
 
 # Abstract:
 Students are often worried about their chances of admission to University.
