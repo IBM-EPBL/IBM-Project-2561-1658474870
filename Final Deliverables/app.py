@@ -14,7 +14,7 @@ def index():
             arr.append(float(val))
 
         # deepcode ignore HardcodedNonCryptoSecret: <please specify a reason of ignoring this>
-        API_KEY = "wf8mge_OQdwVO8ao2kmWCtfxOfLWl8442SH44V85v2Ls"
+        API_KEY = "Sv7WDB3Z_qZyWbgIhUOb59SVrBjYJAU5VE4o1btaO7uP"
         token_response = requests.post('https://iam.cloud.ibm.com/identity/token', data={
             "apikey": API_KEY, 
             "grant_type": 'urn:ibm:params:oauth:grant-type:apikey'
@@ -34,7 +34,7 @@ def index():
                         }
 
         response_scoring = requests.post(
-            'https://us-south.ml.cloud.ibm.com/ml/v4/deployments/8308fd4c-24a5-46ab-96fa-263657ae4ad0/predictions?version=2022-10-18', 
+            'https://eu-de.ml.cloud.ibm.com/ml/v4/deployments/f27d086e-e6e2-4b10-852c-ffc52b8b95a2/predictions?version=2022-11-16', 
             json=payload_scoring,
             headers=header
         ).json()
